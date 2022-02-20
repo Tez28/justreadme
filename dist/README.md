@@ -2,7 +2,7 @@
   # undefined
   
   
-    ![badge](https://img.shields.io/badge/license-apache-blue
+    ![badge](https://img.shields.io/badge/license-ISC-blue)
       
 
   ## Table-of-Contents
@@ -11,7 +11,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   
-    [apache](https://choosealicense.com/licenses/apache)
+    [ISC](https://choosealicense.com/licenses/ISC)
       
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -19,15 +19,15 @@
 
   ## [Description](#table-of-contents)
   
-  test to see if you are running
+  This is an app that generates the users portfolio.
 
   ## [Installation](#table-of-contents)
 
-  run test in
+  run npm
 
   ## [Usage](#table-of-contents)
 
-  test out for working 
+  Users will utilize the project to showcase their GitHub and their projects on a webpage.
 
   For more information on how to add screenshots for examples, visit the following website:
   
@@ -37,7 +37,7 @@
     ## [License](#table-of-contents)
     The application is covered under the following license:
     
-    [apache](https://choosealicense.com/licenses/apache)
+    [ISC](https://choosealicense.com/licenses/ISC)
       
      
 
@@ -47,11 +47,11 @@
 
   ## [Tests](#table-of-contents)
 
-  run to see
+  test nmp
 
   ## [Questions](#table-of-contents)
 
   Please contact me with any questions at:
 
-  [GitHub](https://github.com/test)
-  [Email: test@gmail.com](mailto:test@gmail.com)
+  [GitHub](https://github.com/Tez)
+  [Email: courtezcannady@gmail.com](mailto:courtezcannady@gmail.com)

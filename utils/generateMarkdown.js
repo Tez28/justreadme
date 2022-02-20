@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license !== "no license selected") {
     return `
-    ![badge](https://img.shields.io/badge/license-${license}-blue
+    ![badge](https://img.shields.io/github/license/${github}/${license}
       `;
   } else {
     return ' ';
@@ -73,7 +73,7 @@ function generateMarkdown(data) {
 
   ## [Contributing](#table-of-contents)
   
-
+  ${data.contribute}
 
   ## [Tests](#table-of-contents)
 
