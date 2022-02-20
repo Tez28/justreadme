@@ -1,0 +1,22 @@
+{
+  "name": "just-read-me",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tez28/justreadme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tez28/justreadme/issues"
+  },
+  "homepage": "https://github.com/Tez28/justreadme#readme",
+  "description": ""
+}
