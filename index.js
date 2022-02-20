@@ -1,7 +1,7 @@
 //Include packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require() = require('./utils/generateMarkdown.js');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
 //Create an array of questions for user input
 
 const promptQuestions = () => {
@@ -165,5 +165,16 @@ const init = () => {
 
 // Function call to initialize app
 init()
-.then(data => { writeToFile(data)
-});
+.then(readData => {
+    console.log(readData);
+    return generateMarkdown(readData)
+})
+.then(readMD => {
+    return writeToFile(readMD);
+})
+.then(writeFileResponse => {
+    console.log(writeFileResponse);
+})
+.catch(err => {
+    console.log(err);
+})

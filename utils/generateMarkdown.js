@@ -73,7 +73,7 @@ function generateMarkdown(data) {
 
   ## [Contributing](#table-of-contents)
   
-  ${renderContributingSection(data.contribute)}
+
 
   ## [Tests](#table-of-contents)
 
