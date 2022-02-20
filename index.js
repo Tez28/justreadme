@@ -47,6 +47,20 @@ const promptQuestions = () => {
         },
         {
             type: 'input',
+            name: 'repo',
+            message: 'What is your repository name? (Required)',
+            default: ' ',
+            validate: repoInput => {
+                if (repoInput) {
+                    return true;
+                } else {
+                    console.log('Please provide a name for your repository!');
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'description',
             message: 'Please write a short description of your project (Required)',
             validate: descriptionInput => {

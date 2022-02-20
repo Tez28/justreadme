@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license !== "no license selected") {
     return `
-    ![badge](https://img.shields.io/github/license/${github}/${license}
+    ![badge](https://img.shields.io/badge/license-${license}-blue)
       `;
   } else {
     return ' ';
@@ -36,7 +36,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+//Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.project}
@@ -84,6 +84,7 @@ function generateMarkdown(data) {
   Please contact me with any questions at:
 
   [GitHub](https://github.com/${data.github})
+  
   [Email: ${data.email}](mailto:${data.email})
 `;
 }
