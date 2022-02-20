@@ -140,10 +140,28 @@ const questions = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = fileContent => {
+    return new Promise((resolve, reject) => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
+            //if errors reject
+            if (err) {
+                reject(err);
+                return;
+            }
+            resolve({
+                ok: true,
+                message: 'File Created!'
+            });
+        });
+    });
+}
 
-// TODO: Create a function to initialize app
-function init() {}
+//function to initialize app
+const init = () => {
+    return questions;
+}
 
 // Function call to initialize app
-init();
+init()
+.then(data => { writeToFile(data)
+});
